@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html>
- <!-- CSS -->
-    <!-- build:css build/css/navy.css -->
-    <link rel="stylesheet" href="/itk-vtk-viewer/css/navy.css">
-    <!-- endbuild -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
-
-
+ 
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,34 +31,24 @@
 
 <h2> Code example</h2>
 
-                <figure class="highlight html">
-                                            <table>
-                                                <tr>
-                                                    <td class="code">
-                                                        <pre>
-                                                            <span class="line">
-                                                                <span class="tag">
-                                                                    &lt;
-                                                                    <span class="name">script</span>
-                                                                    <span class="attr">type</span>
-                                                                    =
-                                                                    <span class="string">"text/javascript"</span>
-                                                                    <span class="attr">src</span>
-                                                                    =
-                                                                    <span class="string">"https://unpkg.io/itk-vtk-viewer@9.14.1/dist/itkVtkViewerCDN.js"</span>
-                                                                    &gt;
-                                                                </span>
-                                                                <span class="tag">
-                                                                    &lt;/
-                                                                    <span class="name">script</span>
-                                                                    &gt;
-                                                                </span>
-                                                            </span>
-                                                            <br>
-                                                        </pre>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </figure>
+<pre>
+    <div style="position: relative;float: center; display: flex;
+                justify-content: center;
+                align-items: center;">
+    
+   <div id="visuVol"
+         style="border: 2px solid gray;"
+       class="itk-vtk-viewer"
+         data-viewport="650x400"
+        data-background-color="ffffFF"
+         data-url="https://ipol-geometry.loria.fr/~kerautre/ipol_demo/LiverVesselnessIPOLDemo/tmp/B4476DDF6A1E7978363CB6ECBBBDACAE/res.nii,https://ipol-geometry.loria.fr/~kerautre/ipol_demo/LiverVesselnessIPOLDemo/tmp/B4476DDF6A1E7978363CB6ECBBBDACAE/ref.off" />
+        <script type="text/javascript" src="https://ipol-geometry.loria.fr/SourceCodeDemosWorkshop/itk-vtk-viewer/dist/itkVtkViewerCDN.js"></script>
+   </div>
+</div>
+</pre>
+
+
+
+
   </body>
 </html>
